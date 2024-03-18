@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina Principale</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    
+    #home {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 300px;
+      height: 500px;
+      background-color: white;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    body {
+      background-color: green;
+    }
+
+    .block {
+        display: block;
+    }
+
+    .none {
+        display: none;
+    }
+  </style>
+</head>
+<body style="background-color: green;">
+  <div class="container">
+    <img class="mx-auto d-block" src="molinariTrain.png" alt="logo" style="width:500px;">
+  </div>
+
+  <div id="home" class="text-center mx-auto">
+      <form action="admin.html">
+        <p>Gestisci Stazione: </p>
+        <button id="admin" class="form-group btn btn-primary btn-block" style="width:260px;">Amministrazione</button> <br>
+      </form>
+      <form action="interrogazione.html">
+        <p>Scopri le tratte: </p>
+        <button id="interrogazioni" class="form-group btn btn-primary btn-block" style="width:260px;">Cerca!</button>    
+      </form>
+    </div>
+  </div>
+
+
+ 
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
